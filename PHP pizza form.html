@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizza form PHP</title>
+</head>
+<body>
+<h1>Pizza Form.</h1>
+
+<form name="bestelling" action="verwerk.php" method="post">
+	Naam: <input type="text" name="naam" placeholder="Typ hier je naam..."> <br> <br>
+
+	Pizza: <select>
+		<option value="salami">Salami</option>
+		<option value="chickenkebab">Chicken Kebab</option>
+		<option value="scampi">Scampi</option>
+		<option value="tonno">Tonno</option>
+		<option value="extravaganza">Extra Vaganza</option>
+	</select><br> <br>
+
+	Bezorgen: <input type="radio" id="radiobutton" value="yes"> Ja 
+	<input type="radio" id="radiobutton" value="no"> Nee
+	<br> <br>
+
+	Warm: <input id="checkBox" type="checkbox" value="ja"> Ja
+	<br> <br>
+
+  	Opmerkingen: <br> <textarea name="opmerking" placeholder="typ hier je opmerkingen"></textarea>
+
+<br><br> <input type="submit" name="Bestelbutton" value="bestel">
+
+</form>
+</body>
+</html>

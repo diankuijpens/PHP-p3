@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>6.6.a</title>
+	</head>
+	<body>
+		<form action="6.6.a.process.php" method="post">
+			Eerste getal<br>
+			<input type="text" name="getal1">
+			<br>
+			Tweede getal<br>
+			<input type="text" name="getal2">
+			<br><br>
+			<input type="submit" value="Reken uit">
+		</form>
+	<?php
+			$getal1=$_POST["getal1"];
+			$getal2=$_POST["getal2"];
+			echo($getal1 + $getal2);
+	?>
+	</body>
+</html>

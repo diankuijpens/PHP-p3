@@ -1,0 +1,1 @@
+SELECT * FROM `persoon` WHERE 1
